@@ -1,0 +1,67 @@
+﻿<div id="content" class="bg-dark blue">
+    <div class="container pt70" id="HowWeDo">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title-underblock title-bottom-border custom mb20 text-white">{{WebSectionDetails.name}} </h2>
+
+                <div class="col-md-3 wow zoomIn animated"><img src="images/work.webp" alt="How we do it at Softex?" class="img-responsive"></div>
+                <div class="col-md-9">
+                    <ul class="fa-ul">
+                        <li class="lead" v-for="item in WebSectionDetails.webSections"><i class="fa-li fa @localizer["liArrowIcon"]"></i><span style="color:#fff"><strong>{{item.title}} -</strong></span> {{item.toolTip}}</li>
+                        
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<script>
+    const SectionHow = Vue.createApp({
+        data() {
+            return {
+                
+                WebSectionDetails: [],
+                screenSize: window.innerWidth,
+            };
+        },
+        created() {
+            this.loadApi();
+        },
+
+        methods: {
+            async loadApi() {
+                try {
+                    const WebSectionResponse = await axios.get("/TreeData/GetWebsections?TreeId=@Model");
+                    this.WebSectionDetails = WebSectionResponse.data[0];
+                } catch (e) {
+                    console.error(e);
+                }
+            },
+            updateSelectedImage(image) {
+                var selectedImage = "";
+                if (this.screenSize <= 767) {
+                    selectedImage = image.imageLinkMobile;
+                } else if (this.screenSize <= 1024) {
+                    selectedImage = image.imageLinkTablet;
+                } else {
+                    selectedImage = image.imageLink;
+                }
+                return selectedImage;
+            },
+            truncateText(value) {
+                if (value.length > 90) {
+                    return value.substring(0, 85) + "...";
+                }
+                return value;
+            },
+        },
+    });
+    SectionHow.mount('#HowWeDo');
+</script>

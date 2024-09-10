@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="AspNetCore.ReCaptcha" Version="1.8.2" />
+		<PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+		<PackageReference Include="File.TypeChecker" Version="4.1.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.7" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
+		<PackageReference Include="toastr" Version="2.1.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="BaseControllers">
+			<HintPath>..\..\ExApps-Artifacts-Dlls-netcore\Exapps DLLS\BaseControllers.dll</HintPath>
+		</Reference>
+		<Reference Include="ExappsCallerDotNetCore">
+			<HintPath>..\..\ExApps-Artifacts-Dlls-netcore\Exapps DLLS\ExappsCallerDotNetCore.dll</HintPath>
+		</Reference>
+		<Reference Include="SoftexDotNetCoreUI">
+			<HintPath>..\..\ExApps-Artifacts-Dlls-netcore\Exapps DLLS\SoftexDotNetCoreUI.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
