@@ -1,0 +1,37 @@
+{
+  //Language 
+  "LangPath": "ar-EG/",
+
+
+  //Title of Page
+  "CEO": "كلمة المدير التنفيذي|سوفتكس للبرمجيات",
+  "Testimonials": "شهادات شكر وتقدير|سوفتكس للبرمجيات",
+  "GPS": "نظام متابعة حركة الموظفين | ماركت كنترول",
+
+
+
+  //Head
+  "Certificates": "الشهادات",
+  "ReadMore": "إقرا المزيد......",
+  "Home": "الصفحة الرئيسية",
+
+
+  //Services
+  "Service": "خدمات اخرى",
+  "MC": "ماركت كنترول",
+  "MCDiscription": "إدارة مميزة لأعمالك التجارية والصناعية",
+  "SC": "سيلز كنترول",
+  "SCDiscription": "نظام إدارة مبيعات لبناء علاقة تدوم مع عملائك",
+  "TC": "ترافيل كنترول",
+  "TCDiscription": "إدارة جميع أعمال شركات السفر والسياحة",
+
+
+
+  "WhatCustomersSay": "ماذا قالوا عملائنا",
+  "TestimonialsTitle": "",
+
+
+  //icons
+  "liArrowIcon": "fa-chevron-circle-left"
+
+}

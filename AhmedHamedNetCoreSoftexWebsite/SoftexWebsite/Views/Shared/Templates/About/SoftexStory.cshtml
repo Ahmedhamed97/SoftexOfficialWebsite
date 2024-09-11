@@ -1,0 +1,74 @@
+﻿<div id="content" class="pattern9">
+    <div class="container pt70" id="Story">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title-underblock title-bottom-border custom mb20">{{AllDetails.name}}</h2>
+                <div class="about-timeline">
+                    <div v-for="(tree, index) in Details" :key="index">
+                        <div class="timeline-date center-block">{{ tree.name }}</div>
+                        <div class="row">
+                            <div :class="['col-md-6', index % 2 !== 0 ? 'col-md-push-6' : '']">
+                                <div class="about-timeline-section clearfix" v-for="item in tree.webSections">
+                                    <h3>{{item.title}}</h3>
+                                    <p>{{item.details}}
+                                        <a v-if="item.url && !item.url.Empty" :href="`/@localizer["LangPath"]${item.url}`">@localizer["ReadMore"]</a>
+                                    </p>
+                                    <span class="timeline-section-date">{{item.toolTip}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    const HistorySection = Vue.createApp({
+        data() {
+            return {
+
+                AllDetails: [],
+                Details : [], 
+                screenSize: window.innerWidth,
+            };
+        },
+        created() {
+            this.loadApi();
+        },
+
+        methods: {
+            async loadApi() {
+                try {
+
+                    const WebSectionResponse = await axios.get("/TreeData/GetWebsections?TreeId=@Model");
+
+                    this.AllDetails = WebSectionResponse.data[0];
+                    this.Details =this.AllDetails.treeNode.sort((a, b) => a.displayOrder - b.displayOrder);
+                } catch (e) {
+                    console.error(e);
+                }
+            },
+            updateSelectedImage(image) {
+                var selectedImage = "";
+                if (this.screenSize <= 767) {
+                    selectedImage = image.imageLinkMobile;
+                } else if (this.screenSize <= 1024) {
+                    selectedImage = image.imageLinkTablet;
+                } else {
+                    selectedImage = image.imageLink;
+                }
+                return selectedImage;
+            },
+            truncateText(value) {
+                if (value.length > 90) {
+                    return value.substring(0, 85) + "...";
+                }
+                return value;
+            },
+        },
+    });
+    HistorySection.mount('#Story');
+</script>

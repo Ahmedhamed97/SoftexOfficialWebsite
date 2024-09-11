@@ -1,0 +1,36 @@
+{
+  //Language
+  "LangPath": "",
+
+
+
+
+  //Title of Page
+  "CEO": "Word from CEO | Softex Software House",
+  "Testimonials": "Customer Testimonials|Softex Software House",
+  "GPS": "GPS Tracking System | Market Control Online",
+
+
+  //Head
+  "Certificates": "Our Certificates",
+  "readMore": "Read more......",
+  "Home": "Home",
+
+  //Services
+  "Service": "Other Services",
+  "MC": "Market Control",
+  "MCDiscription": "Scalable and Reliable Online ERP System",
+  "SC": "Sales Control",
+  "SCDiscription": "CRM to Build Strong Customer Relationship",
+  "TC": "Travel Control",
+  "TCDiscription": "Multi-Tasking System for Travel & Tourism",
+
+
+  "WhatCustomersSay": "What Customers Say",
+  "TestimonialsTitle": "(Testimonials)",
+
+
+  //icons
+  "liArrowIcon": "fa-chevron-circle-right"
+
+}

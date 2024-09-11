@@ -1,0 +1,127 @@
+﻿@{
+    ViewData["Title"] = localizer["Testimonials"];
+}
+
+<div id="content" class="no-padding" role="main">
+    <div id="testimonialSection">
+        <div class="page-header parallax dark larger2x larger-desc" data-bgattach="/images/backgrounds/index9/bg1.webp" data-0="background-position:50% 0px;" data-500="background-position:50% -100%" style="background-image: url(&quot;images/backgrounds/index9/bg1.webp&quot;);">
+            <div class="container">
+                <div class="row" style="display: flex;">
+                    <div class="col-md-6">
+                        <h1>{{Details.name}}</h1>
+                        <p class="text-white" style="letter-spacing: 1px; text-transform:uppercase">{{Details.internalRemarks}}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ol class="breadcrumb">
+                            <li><a href="/">@localizer["Home"]</a></li>
+                            <li class="active">{{Details.shortDescription}}</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container pb60">
+            <div class="col-md-9">
+                <div class="row">
+                    <h2 class="title-underblock title-bottom-border custom mb30">@localizer["Certificates"]</h2>
+                    <div class="custombg popup-gallery" style="display: flex;flex-wrap: wrap;">
+                        <div class="col-md-3 col-xs-6 team-member-container" v-for="image in images">
+                            <div class="portfolio-image-zoom team-member team-animate-social">
+                                <figure>
+                                    <a href="" class="zoom-item" :title="image.imageFileName"><img :src="updateSelectedImage(image)" :alt="image.imageFileName" class="img-responsive"></a>
+                                </figure>
+                                <h3>{{truncateText(image.imageFileName)}}</h3>
+                                <p class="member-desc" style="padding-left:0; padding-top:0"><span>{{ truncateText(image.internalRemarks) }}</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="title-underblock title-bottom-border custom mb30">@localizer["WhatCustomersSay"] <span class="small">@localizer["TestimonialsTitle"]</span></h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel testimonial-slider owl-theme">
+                            <div class="testimonial" v-for="image in Details.images">
+                                <figure>
+                                    <a href=""><img :src="updateSelectedImage(image)" :alt="image.imageFileName"></a>
+                                </figure>
+                                <div class="testimonial-content">
+                                    <p>{{ image.internalRemarks }}</p>
+                                    <h5><a href="" :title="image.imageFileName">{{ image.imageFileName }}</a></h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Side Forms Here -->
+            <partial name="../Shared/Templates/SideSection.cshtml" />
+
+        </div>
+    </div>
+</div>
+
+<script>
+    const testimonials = Vue.createApp({
+        data() {
+            return {
+                Details: [],
+                images: [],
+                screenSize: window.innerWidth,
+            };
+        },
+        created() {
+            this.loadApi();
+        },
+        updated() {
+            this.$nextTick(() => {
+                setTimeout(() => {
+                    $(".owl-carousel.testimonial-slider").owlCarousel({
+                        loop: false,
+                        margin: 0,
+                        responsiveClass: true,
+                        nav: false,
+                        dots: true,
+                        items: 1,
+                    });
+                }, 1000);
+            });
+        },
+        methods: {
+            async loadApi() {
+                try {
+                    const response = await axios.get("/TreeData/GetImages?TreeId=95");
+                    this.Details = response.data[0];
+                    this.images = this.Details.images.sort((a, b) => a.priority - b.priority);
+                } catch (e) {
+                    console.error(e);
+                }
+            },
+            updateSelectedImage(image) {
+                let selectedImage = "";
+                if (this.screenSize <= 767) {
+                    selectedImage = image.imageLinkMobile;
+                } else if (this.screenSize <= 1024) {
+                    selectedImage = image.imageLinkTablet;
+                } else {
+                    selectedImage = image.imageLink;
+                }
+                return selectedImage;
+            },
+            truncateText(value) {
+                if (value.length > 30) {
+                    return value.substring(0, 28) + "...";
+                }
+                return value;
+            },
+        },
+    });
+
+    testimonials.mount('#testimonialSection');
+</script>
+
+

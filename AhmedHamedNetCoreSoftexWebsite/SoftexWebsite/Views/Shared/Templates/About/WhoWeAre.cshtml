@@ -1,0 +1,77 @@
+﻿<div id="content" class="bg-lightergray">
+    <div class="container pt70 pb30" id="WhoWeAre">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title-underblock title-bottom-border custom mb20">{{ Details.name }} </h2>
+                <div class="col-md-8">
+                    <p class="lead">{{ Details.internalRemarks }}</p>
+                    <ul class="list-style list-square" style="background: #f1f1f1;padding: 30px;">
+                        <li v-for="item in DetailsWebSection.webSections">{{ item.toolTip }}</li>
+                    </ul>
+                    <div class="clearfix mb20"></div>
+                    <p class="lead">{{ Details.shortDescription }}</p>
+                    <div class="clearfix mb20"></div>
+                    <a class="btn btn-danger TextDir" href="catalog.php" style="padding-left: 42px;">
+                        <div class="col-md-3 col-xs-3" style="padding-left:0"><i class="fa fa-file-image-o" style="font-size:50px"></i></div><div class="col-md-9 col-xs-9" style="padding-right:0">
+                            Check our<br>
+                            <span style="font-size:22px">Catalog</span>
+                        </div>
+                    </a> <a class="btn btn-danger TextDir" href="http://www.softexsw.com/storage/files/1388582547_softex_portfolio.pdf" target="_blank">
+                        <div class="col-md-2 col-xs-2" style="padding-left:0"><i class="fa fa-file-text" style="font-size:50px"></i></div><div class="col-md-10 col-xs-10" style="padding-right:0">
+                            Download our<br>
+                            <span style="font-size:20px">Company Profile Brochure</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 wow zoomIn animated" v-for="image in Details.images"><img :src="updateSelectedImage(image)" alt="Who We Are?" class="img-responsive"></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const BrefSection = Vue.createApp({
+        data() {
+            return {
+                Details: [],
+                DetailsWebSection: [],
+                screenSize: window.innerWidth,
+            };
+        },
+        created() {
+            this.loadApi();
+        },
+
+        methods: {
+            async loadApi() {
+                try {
+                    const response = await axios.get("/TreeData/GetImages?TreeId=@Model");
+                    const WebSectionResponse = await axios.get("/TreeData/GetWebsections?TreeId=@Model");
+                    this.Details = response.data[0];
+                    this.DetailsWebSection = WebSectionResponse.data[0];
+                } catch (e) {
+                    console.error(e);
+                }
+            },
+            updateSelectedImage(image) {
+                var selectedImage = "";
+                if (this.screenSize <= 767) {
+                    selectedImage = image.imageLinkMobile;
+                } else if (this.screenSize <= 1024) {
+                    selectedImage = image.imageLinkTablet;
+                } else {
+                    selectedImage = image.imageLink;
+                }
+                return selectedImage;
+            },
+            truncateText(value) {
+                if (value.length > 90) {
+                    return value.substring(0, 85) + "...";
+                }
+                return value;
+            },
+        },
+    });
+    BrefSection.mount('#WhoWeAre');
+</script>

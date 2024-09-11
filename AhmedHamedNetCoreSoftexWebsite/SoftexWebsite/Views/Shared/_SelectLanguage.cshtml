@@ -1,0 +1,42 @@
+﻿@{
+    var language = Context.Session.GetInt32("Language") ?? -1; // Default to EN if the language is not set
+}
+
+<li>
+    @if (language == -1)
+    {
+
+        <a href="@GetLanguageUrl(language)"><strong>العربية</strong><span class="icon flaticon-chat"></span></a>
+    }
+    else
+    {
+        <a href="@GetLanguageUrl(language)"><strong>English</strong><span class="icon flaticon-chat"></span></a>
+    }
+</li>
+
+
+          
+
+
+
+
+
+@functions {
+    string GetLanguageUrl(int languageCode)
+    {
+        var path = Context.Request.Path.ToString();
+        var queryString = Context.Request.QueryString.ToString();
+        var newPath = path.Replace("/ar-EG", "/");
+        if (newPath.EndsWith("/"))
+        {
+            newPath = newPath.TrimEnd('/');
+        }
+        var newUrl = languageCode == -1 ? "/ar-EG" + $"{newPath}{queryString}" :
+                     $"{newPath}{queryString}";
+
+        newUrl = newUrl.Replace("//", "/");
+        return $"https://{Context.Request.Host}{newUrl}";
+    }
+}
+
+   

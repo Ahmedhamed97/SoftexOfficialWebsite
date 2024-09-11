@@ -1,0 +1,21 @@
+﻿.LatestNewsAstyle {
+    float: left;
+    direction: rtl;
+    font-size: 18px;
+}
+
+.pullDir {
+    float: right!important;
+}
+.pullDirReverse {
+    float: left !important;
+}
+
+.dir {
+    direction: rtl;
+}
+
+.TextDir{
+    text-align: right;
+}
+
