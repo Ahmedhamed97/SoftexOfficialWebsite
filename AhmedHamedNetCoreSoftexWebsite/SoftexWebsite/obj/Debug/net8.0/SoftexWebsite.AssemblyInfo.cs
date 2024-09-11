@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoftexWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c602b416198ec8262277785df79e38f0ccafc9c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0eab43a1a0a199b4b3f5237a1228322239bc594")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoftexWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoftexWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

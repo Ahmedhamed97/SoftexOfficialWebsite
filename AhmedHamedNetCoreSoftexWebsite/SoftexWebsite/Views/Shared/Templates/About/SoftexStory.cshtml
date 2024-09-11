@@ -10,13 +10,14 @@
                             <div :class="['col-md-6', index % 2 !== 0 ? 'col-md-push-6' : '']">
                                 <div class="about-timeline-section clearfix" v-for="item in tree.webSections">
                                     <h3>{{item.title}}</h3>
-                                    <p>{{item.details}}</p>
+                                    <p>{{item.details}}
+                                        <a v-if="item.url && !item.url.Empty" :href="`/@localizer["LangPath"]${item.url}`">@localizer["readMore"]</a>
+                                    </p>
                                     <span class="timeline-section-date">{{item.toolTip}}</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

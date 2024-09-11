@@ -4,11 +4,10 @@
             <div class="col-md-12">
                 <h2 class="title-underblock title-bottom-border custom mb20 text-white">{{WebSectionDetails.name}} </h2>
 
-                <div class="col-md-3 wow zoomIn animated"><img src="images/work.webp" alt="How we do it at Softex?" class="img-responsive"></div>
+                <div class="col-md-3 wow zoomIn animated pullDir"><img src="/images/work.webp" alt="How we do it at Softex?" class="img-responsive"></div>
                 <div class="col-md-9">
                     <ul class="fa-ul">
                         <li class="lead" v-for="item in WebSectionDetails.webSections"><i class="fa-li fa @localizer["liArrowIcon"]"></i><span style="color:#fff"><strong>{{item.title}} -</strong></span> {{item.toolTip}}</li>
-                        
                     </ul>
                 </div>
                 <div class="clearfix"></div>

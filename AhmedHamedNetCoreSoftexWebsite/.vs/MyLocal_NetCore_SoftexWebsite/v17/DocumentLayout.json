@@ -1,38 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\",
+  "WorkspaceRootPath": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|c:\\users\\osama\\onedrive\\documents\\mylocal_netcore_softexwebsite\\softexwebsite\\wwwroot\\css\\directionen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\wwwroot\\css\\directionen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|e:\\project\\websitsoftex\\softexofficialwebsite\\ahmedhamednetcoresoftexwebsite\\softexwebsite\\views\\product\\gps.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\views\\product\\gps.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|c:\\users\\osama\\onedrive\\documents\\mylocal_netcore_softexwebsite\\softexwebsite\\views\\shared\\templates\\about\\howwedo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\views\\shared\\templates\\about\\howwedo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|e:\\project\\websitsoftex\\softexofficialwebsite\\ahmedhamednetcoresoftexwebsite\\softexwebsite\\views\\company\\testimonials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\views\\company\\testimonials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|c:\\users\\osama\\onedrive\\documents\\mylocal_netcore_softexwebsite\\softexwebsite\\views\\shared\\templates\\about\\whoweare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\views\\shared\\templates\\about\\whoweare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|c:\\users\\osama\\onedrive\\documents\\mylocal_netcore_softexwebsite\\softexwebsite\\views\\shared\\templates\\about\\softexstory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\views\\shared\\templates\\about\\softexstory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|c:\\users\\osama\\onedrive\\documents\\mylocal_netcore_softexwebsite\\softexwebsite\\resources\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\resources\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|c:\\users\\osama\\onedrive\\documents\\mylocal_netcore_softexwebsite\\softexwebsite\\resources\\ar-eg.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|e:\\project\\websitsoftex\\softexofficialwebsite\\ahmedhamednetcoresoftexwebsite\\softexwebsite\\resources\\ar-eg.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\resources\\ar-eg.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|c:\\users\\osama\\onedrive\\documents\\mylocal_netcore_softexwebsite\\softexwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|e:\\project\\websitsoftex\\softexofficialwebsite\\ahmedhamednetcoresoftexwebsite\\softexwebsite\\resources\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\resources\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|c:\\users\\osama\\onedrive\\documents\\mylocal_netcore_softexwebsite\\softexwebsite\\views\\shared\\headscripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\views\\shared\\headscripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|e:\\project\\websitsoftex\\softexofficialwebsite\\ahmedhamednetcoresoftexwebsite\\softexwebsite\\views\\shared\\templates\\sidesection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881E1191-9A98-4209-9ECA-43E74EB5B7E3}|SoftexWebsite\\SoftexWebsite.csproj|solutionrelative:softexwebsite\\views\\shared\\templates\\sidesection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,114 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HeadScripts.cshtml",
-              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\HeadScripts.cshtml",
-              "RelativeDocumentMoniker": "SoftexWebsite\\Views\\Shared\\HeadScripts.cshtml",
-              "ToolTip": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\HeadScripts.cshtml",
-              "RelativeToolTip": "SoftexWebsite\\Views\\Shared\\HeadScripts.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "testimonials.cshtml",
+              "DocumentMoniker": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Views\\Company\\testimonials.cshtml",
+              "RelativeDocumentMoniker": "SoftexWebsite\\Views\\Company\\testimonials.cshtml",
+              "ToolTip": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Views\\Company\\testimonials.cshtml",
+              "RelativeToolTip": "SoftexWebsite\\Views\\Company\\testimonials.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAA8AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-10T07:18:44.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SoftexWebsite\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SoftexWebsite\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-10T07:18:31.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "directionEn.css",
-              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\wwwroot\\css\\directionEn.css",
-              "RelativeDocumentMoniker": "SoftexWebsite\\wwwroot\\css\\directionEn.css",
-              "ToolTip": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\wwwroot\\css\\directionEn.css",
-              "RelativeToolTip": "SoftexWebsite\\wwwroot\\css\\directionEn.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBsAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-10T07:14:00.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WhoWeAre.cshtml",
-              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\Templates\\About\\WhoWeAre.cshtml",
-              "RelativeDocumentMoniker": "SoftexWebsite\\Views\\Shared\\Templates\\About\\WhoWeAre.cshtml",
-              "ToolTip": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\Templates\\About\\WhoWeAre.cshtml",
-              "RelativeToolTip": "SoftexWebsite\\Views\\Shared\\Templates\\About\\WhoWeAre.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-10T07:13:27.04Z",
+              "WhenOpened": "2024-09-11T09:07:56.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SoftexStory.cshtml",
-              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\Templates\\About\\SoftexStory.cshtml",
-              "RelativeDocumentMoniker": "SoftexWebsite\\Views\\Shared\\Templates\\About\\SoftexStory.cshtml",
-              "ToolTip": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\Templates\\About\\SoftexStory.cshtml",
-              "RelativeToolTip": "SoftexWebsite\\Views\\Shared\\Templates\\About\\SoftexStory.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-10T07:12:43.251Z",
+              "Title": "en-US.json",
+              "DocumentMoniker": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Resources\\en-US.json",
+              "RelativeDocumentMoniker": "SoftexWebsite\\Resources\\en-US.json",
+              "ToolTip": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Resources\\en-US.json",
+              "RelativeToolTip": "SoftexWebsite\\Resources\\en-US.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-11T09:05:16.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ar-EG.json",
+              "DocumentMoniker": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Resources\\ar-EG.json",
+              "RelativeDocumentMoniker": "SoftexWebsite\\Resources\\ar-EG.json",
+              "ToolTip": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Resources\\ar-EG.json",
+              "RelativeToolTip": "SoftexWebsite\\Resources\\ar-EG.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-11T09:05:16.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "en-US.json",
-              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Resources\\en-US.json",
-              "RelativeDocumentMoniker": "SoftexWebsite\\Resources\\en-US.json",
-              "ToolTip": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Resources\\en-US.json",
-              "RelativeToolTip": "SoftexWebsite\\Resources\\en-US.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-10T07:09:24.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ar-EG.json",
-              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Resources\\ar-EG.json",
-              "RelativeDocumentMoniker": "SoftexWebsite\\Resources\\ar-EG.json",
-              "ToolTip": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Resources\\ar-EG.json",
-              "RelativeToolTip": "SoftexWebsite\\Resources\\ar-EG.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-10T07:09:06.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HowWeDo.cshtml",
-              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\Templates\\About\\HowWeDo.cshtml",
-              "RelativeDocumentMoniker": "SoftexWebsite\\Views\\Shared\\Templates\\About\\HowWeDo.cshtml",
-              "ToolTip": "C:\\Users\\osama\\OneDrive\\Documents\\MyLocal_NetCore_SoftexWebsite\\SoftexWebsite\\Views\\Shared\\Templates\\About\\HowWeDo.cshtml",
-              "RelativeToolTip": "SoftexWebsite\\Views\\Shared\\Templates\\About\\HowWeDo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABqAAAA",
+              "Title": "SideSection.cshtml",
+              "DocumentMoniker": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Views\\Shared\\Templates\\SideSection.cshtml",
+              "RelativeDocumentMoniker": "SoftexWebsite\\Views\\Shared\\Templates\\SideSection.cshtml",
+              "ToolTip": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Views\\Shared\\Templates\\SideSection.cshtml",
+              "RelativeToolTip": "SoftexWebsite\\Views\\Shared\\Templates\\SideSection.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-10T07:07:36.162Z",
+              "WhenOpened": "2024-09-11T08:51:07.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GPS.cshtml",
+              "DocumentMoniker": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Views\\Product\\GPS.cshtml",
+              "RelativeDocumentMoniker": "SoftexWebsite\\Views\\Product\\GPS.cshtml",
+              "ToolTip": "E:\\project\\WebsitSoftex\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\Views\\Product\\GPS.cshtml",
+              "RelativeToolTip": "SoftexWebsite\\Views\\Product\\GPS.cshtml",
+              "ViewState": "AQIAALwDAAAAAAAAAAAAANADAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T08:47:55.466Z",
               "EditorCaption": ""
             }
           ]
