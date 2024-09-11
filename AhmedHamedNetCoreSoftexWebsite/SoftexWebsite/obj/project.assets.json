@@ -6147,25 +6147,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\osama\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\osama\\Downloads\\Bedair-hamed-version\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\SoftexWebsite.csproj",
+      "projectUniqueName": "E:\\project\\WebsitSoftex\\Osama Update\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\SoftexWebsite.csproj",
       "projectName": "SoftexWebsite",
-      "projectPath": "C:\\Users\\osama\\Downloads\\Bedair-hamed-version\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\SoftexWebsite.csproj",
-      "packagesPath": "C:\\Users\\osama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\osama\\Downloads\\Bedair-hamed-version\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\obj\\",
+      "projectPath": "E:\\project\\WebsitSoftex\\Osama Update\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\SoftexWebsite.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "E:\\project\\WebsitSoftex\\Osama Update\\SoftexOfficialWebsite\\AhmedHamedNetCoreSoftexWebsite\\SoftexWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\osama\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\NuGetDefaults.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Gamanet\\C4 SDK\\": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -6242,7 +6244,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

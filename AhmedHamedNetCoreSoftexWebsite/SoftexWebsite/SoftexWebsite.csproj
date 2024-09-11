@@ -17,13 +17,13 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Reference Include="BaseControllers">
-	    <HintPath>..\..\..\Dll\ExApps-Artifacts-Dlls-netcore\Exapps DLLS\BaseControllers.dll</HintPath>
+	    <HintPath>..\..\..\..\Dll\ExApps-Artifacts-Dlls-netcore\Exapps DLLS\BaseControllers.dll</HintPath>
 	  </Reference>
 	  <Reference Include="ExappsCallerDotNetCore">
-	    <HintPath>..\..\..\Dll\ExApps-Artifacts-Dlls-netcore\Exapps DLLS\ExappsCallerDotNetCore.dll</HintPath>
+	    <HintPath>..\..\..\..\Dll\ExApps-Artifacts-Dlls-netcore\Exapps DLLS\ExappsCallerDotNetCore.dll</HintPath>
 	  </Reference>
 	  <Reference Include="SoftexDotNetCoreUI">
-	    <HintPath>..\..\..\Dll\ExApps-Artifacts-Dlls-netcore\Exapps DLLS\SoftexDotNetCoreUI.dll</HintPath>
+	    <HintPath>..\..\..\..\Dll\ExApps-Artifacts-Dlls-netcore\Exapps DLLS\SoftexDotNetCoreUI.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
 

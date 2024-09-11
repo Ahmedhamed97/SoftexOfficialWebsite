@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-md-6">
                     <ol class="breadcrumb">
-                        <li><a href="/">@localizer["Home"]</a></li>
+                        <li><a href="/">@localizer["home"]</a></li>
                         <li class="active">{{Details.name}} </li>
                     </ol>
                 </div>
@@ -47,21 +47,25 @@
                     <!--Strat General tab-->
                     <div role="tabpanel" class="tab-pane active" id="general">
                         <div style="background: #f1f1f1;padding: 30px;">
-                            <h2 class="title-underblock title-bottom-border custom mb30"><span>Softex GPS Tracker</span></h2>
-                            <p><strong>Assign employees to their respective office locations, workweeks, and timings</strong></p>
-                            <p>Forget manual login and spreadsheet crash! </p>
-                            <p>Softex GPS Tracker allow employers to seamlessly track employees, managing records and automatically sync with professional dashboard. </p>
-                            <div class="mt20"><a class="btn btn-danger btn-lg" href="#" name=" " data-toggle="modal" data-target="#modal-contact-form-advanced" target="_blank"><i class="fa fa-map-marker" style="font-size:20px; margin-right:10px"></i> Apply now for Live demo</a> <a class="btn btn-custom btn-lg" href="https://www.softexsw.com/en/GPS_Presentation_En.pdf" target="_blank"><i class="fa fa-download" style="font-size:20px; margin-right:10px"></i> Download Catalog</a></div>
+                            <h2 class="title-underblock title-bottom-border custom mb30"><span>{{Tracker.name}}</span></h2>
+                            <p v-html="Tracker.description_HTML"></p>
+                            <div class="mt20">
+                                <a class="btn btn-danger btn-lg" href="#" name=" " data-toggle="modal" data-target="#modal-contact-form-advanced" target="_blank">
+                                    <i class="fa fa-map-marker" style="font-size:20px; margin-right:10px"></i>
+                                    Apply now for Live demo
+                                </a>
+                                    <a class="btn btn-custom btn-lg" href="https://www.softexsw.com/en/GPS_Presentation_En.pdf" target="_blank" style="margin-left: 5px;">
+                                    <i class="fa fa-download" style="font-size:20px; margin-right:10px"></i>
+                                    Download Catalog
+                                </a>
+                            </div>
                         </div>
 
                         <div class="mb30 clearfix"></div>
-                        <h2 class="title-border custom mb50">GPS Tracking system that improves work-flow</h2>
+                            <h2 class="title-border custom mb50">{{TrackingSystem.name}}</h2>
                         <div class="row">
-
-
                             <div class="col-md-6">
-                                <div class="pt20 pb70" style="border:1px dashed #ccc; border-radius:8px; box-shadow: 0 3px 17px rgb(0 0 0 / 11%);
-    -webkit-box-shadow: 0 3px 17px rgba(0, 0, 0, 0.11); padding:20px;height: 1050px; position:relative">
+                                <div class="pt20 pb70" style="border:1px dashed #ccc; border-radius:8px; box-shadow: 0 3px 17px rgb(0 0 0 / 11%); -webkit-box-shadow: 0 3px 17px rgba(0, 0, 0, 0.11); padding:20px;height: 1050px; position:relative">
                                     <div class="mb20">
                                         <div style="position: relative">
                                             <div class="h_iframe" style="box-shadow: none; border:0">
@@ -72,45 +76,21 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="padding-left: 40px;">
-                                        <h3 class="custom mb30" style="background: #f1f1f1;padding: 15px;border-radius: 8px;margin-left: -40px;"><i class="fa fa-check-square-o" style="margin-right: 5px;"></i> Standard</h3>
-                                        <h5><strong>Management: </strong></h5>
-                                        <ul class="list-style list-square mb20">
-                                            <li>Dashboard</li>
-                                            <li>
-                                                Admin Panel
-                                                <ul class="list-disc mt10">
-                                                    <li>Create Employee Accounts</li>
-                                                    <li>Manage Accounts</li>
-                                                    <li>Accept employee requests</li>
-                                                    <li>Reject employee requests</li>
-                                                </ul>
-                                            </li>
-                                            <li>Summary Reports</li>
-                                            <li>Analytics On-Screen</li>
-                                        </ul>
+                                        <div v-html="Standard.description">
 
-                                        <h5><strong>Employees: </strong></h5>
-                                        <ul class="list-style list-square mb20">
-                                            <li>Activity Log</li>
-                                            <li>
-                                                Check-in &amp; out
-                                                <ul class="list-disc mt10">
-                                                    <li>Pin location</li>
-                                                    <li>Remarks</li>
-                                                </ul>
-                                            </li>
-                                        </ul>
                                     </div>
+                                   @*  <div style="padding-left: 40px;">
+                                        <h3 class="custom mb30" style="background: #f1f1f1;padding: 15px;border-radius: 8px;margin-left: -40px;"><i class="fa fa-check-square-o" style="margin-right: 5px;"></i> {{Standard.name}}</h3>
+                                            <p v-html="Standard.description_HTML"></p>
+                                        </div> *@
                                     <button class="pricing-btn js-anchor-link" href="#scroll-to" onclick="show('popupk') &amp; hide('popup')">View Price</button>
                                 </div>
                             </div>
 
 
 
-                            <div class="col-md-6">
-                                <div class="pt20" style="border:1px dashed #ccc; border-radius:8px; box-shadow: 0 3px 17px rgb(0 0 0 / 11%);
-    -webkit-box-shadow: 0 3px 17px rgba(0, 0, 0, 0.11); padding:20px;height: 1050px; position:relative">
+                            @* <div class="col-md-6">
+                                <div class="pt20" style="border:1px dashed #ccc; border-radius:8px; box-shadow: 0 3px 17px rgb(0 0 0 / 11%);-webkit-box-shadow: 0 3px 17px rgba(0, 0, 0, 0.11); padding:20px;height: 1050px; position:relative">
                                     <div class="mb20">
                                         <div style="position: relative">
                                             <div class="h_iframe" style="box-shadow: none; border:0">
@@ -154,10 +134,10 @@
                                         </ul>
                                     </div>
                                     <button class="pricing-btn-red js-anchor-link" href="#scroll-to" onclick="show('popup') &amp; hide('popupk')">View Price</button>
-                                </div>
-                            </div>
+                                </div>*@
+                            </div> 
 
-                            <!--- pricing tables -->
+                            @* <!--- pricing tables -->
                             <div class="mb30 clearfix"></div>
                             <div id="scroll-to" style="padding-top: 80px; margin-top:-80px"></div>
                             <!-- This is what will be included inside the popup -->
@@ -562,8 +542,8 @@
                                 </div>
                                 <a class="pop_close js-anchor-link" onclick="hide('popup')"><i class="fa fa-close"></i></a>
                             </div>
-                        </div>
-                        <div class="mb30 clearfix"></div>
+                        </div> *@
+                        @* <div class="mb30 clearfix"></div>
 
                         <h2 class="title-border custom mb30 mt40">Benefits of using Softex GPS Tracker </h2>
                         <p>A non-complexed system that allow the user (Employee) to share his GPS Check-ins or live location with manager (Employer) for business purposes. The user can share and write comments about his current location stamped with date and time to be shared only with his corporate account manager. </p>
@@ -600,9 +580,9 @@
                                 <p>To let users, feel comfortable that their efforts are not wasted, by locating and reporting to their leaders with a detailed summary from both sides, Softex GPS Tracker generate accurate location data whatever the end-user (Employee) is connected to the internet or not, and once connected again all the data shall be sent to the admin panel. </p>
                             </div>
 
-                        </div>
+                        </div> *@
 
-                    </div>
+                    </div> 
                     <!-- End general .tab-pane -->
                     
                     
@@ -963,6 +943,15 @@ margin-right: 10px;
         data() {
             return {
                 Details: [],
+                // Overview: [],
+                Tracker: [],
+                TrackingSystem: [],
+                Benefits: [],
+                UseTracking: [],
+                HowWork: [],
+                Standard: [],
+                Premium: [],
+
                 
                 screenSize: window.innerWidth,
             };
@@ -974,8 +963,24 @@ margin-right: 10px;
             async loadApi() {
                 try {
                     const response = await axios.get("/TreeData/GetImages?TreeId=99");
-                    const response = await axios.get("/TreeData/GetImages?TreeId=99");
+                    const responseOverview = await axios.get("/TreeData/GetTreeNodeWithHtml?TreeId=102");
+                    const responseStandard = await axios.get("/TreeData/GetTreeHtml?TreeId=113");
+                    const responsePremium = await axios.get("/TreeData/GetTreeHtml?TreeId=114");
+                    
+                    
                     this.Details = response.data[0];
+                    this.Overview = responseOverview.data[0].treeNode.sort((a, b) => a.displayOrder - b.displayOrder);
+                    this.Standard = responseStandard.data[0];
+                    this.Premium = responsePremium.data[0];
+                    
+                    
+                    this.Tracker = this.Overview[0];
+                    this.TrackingSystem = this.Overview[1];
+                    this.Benefits = this.Overview[2];
+                    this.UseTracking = this.Overview[3];
+                    this.HowWork = this.Overview[4];
+                    
+
                     
                 } catch (e) {
                     console.error(e);
@@ -998,6 +1003,7 @@ margin-right: 10px;
                 }
                 return value;
             },
+            
         },
     });
 

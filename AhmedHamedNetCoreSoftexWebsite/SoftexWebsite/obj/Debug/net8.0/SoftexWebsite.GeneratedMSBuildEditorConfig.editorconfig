@@ -17,99 +17,111 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SoftexWebsite
 build_property.RootNamespace = SoftexWebsite
-build_property.ProjectDir = C:\Users\osama\Downloads\Bedair-hamed-version\SoftexOfficialWebsite\AhmedHamedNetCoreSoftexWebsite\SoftexWebsite\
+build_property.ProjectDir = E:\project\WebsitSoftex\Osama Update\SoftexOfficialWebsite\AhmedHamedNetCoreSoftexWebsite\SoftexWebsite\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\osama\Downloads\Bedair-hamed-version\SoftexOfficialWebsite\AhmedHamedNetCoreSoftexWebsite\SoftexWebsite
+build_property.MSBuildProjectDirectory = E:\project\WebsitSoftex\Osama Update\SoftexOfficialWebsite\AhmedHamedNetCoreSoftexWebsite\SoftexWebsite
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/about.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/about.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxhYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/allnews.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/allnews.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxhbGxuZXdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/careers.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/careers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxjYXJlZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/CeoWord.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/CeoWord.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDZW9Xb3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/gallery.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/gallery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxnYWxsZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/ourclients.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/ourclients.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxvdXJjbGllbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/testimonials.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Company/testimonials.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVx0ZXN0aW1vbmlhbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Home/Index.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Home/Privacy.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Product/GPS.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Product/GPS.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHUFMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Error.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/FooterScripts.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/FooterScripts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3RlclNjcmlwdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/HeadScripts.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/HeadScripts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRTY3JpcHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Templates/About/HowWeDo.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Templates/About/HowWeDo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRlbXBsYXRlc1xBYm91dFxIb3dXZURvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Templates/About/SoftexStory.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Templates/About/SideSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRlbXBsYXRlc1xBYm91dFxTaWRlU2VjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Templates/About/SoftexStory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRlbXBsYXRlc1xBYm91dFxTb2Z0ZXhTdG9yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Templates/About/WhoWeAre.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Templates/About/WhoWeAre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRlbXBsYXRlc1xBYm91dFxXaG9XZUFyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Templates/SideSection.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/Templates/SideSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRlbXBsYXRlc1xTaWRlU2VjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/_SelectLanguage.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/_SelectLanguage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWxlY3RMYW5ndWFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/_ViewImports.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/_ViewStart.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osama/Downloads/Bedair-hamed-version/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/_Layout.cshtml]
+[E:/project/WebsitSoftex/Osama Update/SoftexOfficialWebsite/AhmedHamedNetCoreSoftexWebsite/SoftexWebsite/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2jfuoqkcha
